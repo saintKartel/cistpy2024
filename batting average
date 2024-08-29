@@ -1,0 +1,4 @@
+hits=int(input("how many hits did you have: "))
+swing=int(input("how many times did you swing: "))
+average=(hits/swing)
+print(f"your average is {average}")
