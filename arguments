@@ -1,0 +1,9 @@
+one = int(input("enter your first number: "))
+two = int(input("enter your second number: "))
+    
+    
+def math(one, two):
+    print(one + two)
+    
+math(one, two)    
+    
