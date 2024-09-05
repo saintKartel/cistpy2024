@@ -1,0 +1,12 @@
+def main():
+    print("what is you seat?")
+    seating()
+    
+
+def seating():
+    row = input("what row are you in: ") 
+    chair = input("what chair aree you in: ")
+    position = row, chair
+    print(f"your seat is {position}")
+
+main()    
