@@ -1,0 +1,15 @@
+def main():
+    print("welcome to the hello world program.")
+    theName = getName()
+    print(f"hello world my name is {theName}.")
+    theAge = tellAge()
+    print(f"{theName} you are {theAge} years old.")
+
+def getName():
+    nameInput = input("what is your name?")
+    return(nameInput)
+    
+def tellAge():
+    ageInput = input("how old are you?")
+    return(ageInput)
+main()    
